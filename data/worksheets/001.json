@@ -1,0 +1,134 @@
+﻿{
+    "id": "001",
+    "title": "Subject Pronouns and Verb 'To Be'",
+    "level": "a1-a2",
+    "topic": 1,
+    "sections": [
+        "A"
+    ],
+    "section_instructions": {
+        "A": "Fill in the blanks using HE, SHE, IT, WE, THEY:"
+    },
+    "questions": [
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "cat and horse",
+            "answer": "they"
+        },
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "Mary",
+            "answer": "she"
+        },
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "Tom",
+            "answer": "he"
+        },
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "Jack and I",
+            "answer": "we"
+        },
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "books",
+            "answer": "they"
+        },
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "sister",
+            "answer": "she"
+        },
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "You and Dave",
+            "answer": "you"
+        },
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "plane",
+            "answer": "it"
+        },
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "sunshine",
+            "answer": "it"
+        },
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "cheese",
+            "answer": "it"
+        },
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "cactus",
+            "answer": "it"
+        },
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "parents",
+            "answer": "they"
+        },
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "Pamela",
+            "answer": "she"
+        },
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "news",
+            "answer": "it"
+        },
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "scissors",
+            "answer": "they"
+        },
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "geese",
+            "answer": "they"
+        },
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "flowers",
+            "answer": "they"
+        },
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "piano",
+            "answer": "it"
+        },
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "school",
+            "answer": "it"
+        },
+        {
+            "section": "A",
+            "type": "fill",
+            "text": "daughter",
+            "answer": "she"
+        }
+    ]
+}
