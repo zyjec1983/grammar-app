@@ -68,8 +68,20 @@ class WorkSheetController extends Controller
         $answers = [];
         foreach ($worksheet['questions'] as $idx => $q) {
             if ($q['section'] == $section) {
-                $fieldName = "q_{$section}_{$idx}";
-                $answers[$section][$idx] = isset($_POST[$fieldName]) ? $_POST[$fieldName] : '';
+                if (isset($q['type']) && $q['type'] === 'text') {
+                    // Multiple inputs for text-type questions
+                    $numInputs = substr_count($q['text'], '___');
+                    $fieldName = "q_{$section}_{$idx}";
+                    $answers[$section][$idx] = [];
+                    for ($i = 0; $i < $numInputs; $i++) {
+                        $inputKey = $fieldName . '_' . $i;
+                        $answers[$section][$idx][$i] = isset($_POST[$inputKey]) ? $_POST[$inputKey] : '';
+                    }
+                } else {
+                    // Regular single input
+                    $fieldName = "q_{$section}_{$idx}";
+                    $answers[$section][$idx] = isset($_POST[$fieldName]) ? $_POST[$fieldName] : '';
+                }
             }
         }
         return $answers;
@@ -85,11 +97,30 @@ class WorkSheetController extends Controller
         foreach ($worksheet['questions'] as $idx => $q) {
             if ($q['section'] == $section) {
                 $total++;
-                $userAnswer = isset($userAnswers[$section][$idx]) ? trim($userAnswers[$section][$idx]) : '';
-                $correctAnswer = trim($q['answer']);
+                $isCorrect = false;
+                $correctAnswer = $q['answer'];
                 
-                // Case-insensitive comparison
-                $isCorrect = (strcasecmp($userAnswer, $correctAnswer) == 0);
+                if (isset($q['type']) && $q['type'] === 'text') {
+                    // Multiple answers for text-type questions
+                    $userAnswer = isset($userAnswers[$section][$idx]) ? $userAnswers[$section][$idx] : [];
+                    $userAnswerLower = array_map('strtolower', array_map('trim', $userAnswer));
+                    $correctLower = array_map('strtolower', $correctAnswer);
+                    $isCorrect = ($userAnswerLower === $correctLower);
+                } else {
+                    // Single answer (existing logic)
+                    $userAnswer = isset($userAnswers[$section][$idx]) ? trim($userAnswers[$section][$idx]) : '';
+                    
+                    if (is_array($correctAnswer)) {
+                        $userParts = array_filter(preg_split('/[,\s]+/', strtolower($userAnswer)));
+                        $correctParts = array_map('strtolower', $correctAnswer);
+                        sort($userParts);
+                        sort($correctParts);
+                        $isCorrect = ($userParts === $correctParts);
+                    } else {
+                        $isCorrect = (strcasecmp($userAnswer, $correctAnswer) == 0);
+                    }
+                }
+                
                 if ($isCorrect) {
                     $correct++;
                 }

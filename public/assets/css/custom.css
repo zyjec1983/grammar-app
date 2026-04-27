@@ -40,9 +40,10 @@
 .sidebar .nav-link.active, .offcanvas-body .nav-link.active { background-color: #0d6efd; color: white !important; border-radius: 0.25rem; }
 .sidebar-heading { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bs-secondary-color); margin-bottom: 1rem; padding-left: 0.5rem; }
 
-/* Completion Badge */
-.completion-badge::before { content: '✓'; }
-.completion-badge.text-success { color: #198754; }
+/* Completion Badge - shown when worksheet is completed (via JavaScript) */
+.completion-badge {
+    display: inline-block;
+}
 
 /* Responsive */
 @media (max-width: 991.98px) { .sidebar { display: none; } main { width: 100%; } }
@@ -53,7 +54,28 @@
 .topic-card { transition: all 0.2s ease; }
 .topic-card:hover { background-color: rgba(13, 110, 253, 0.1); }
 .form-label { font-weight: 500; color: var(--bs-body-color); }
-.alert-secondary { background-color: var(--bs-tertiary-bg); border: none; }
+.alert-secondary { 
+    background-color: #f8f9fa; 
+    border: 1px solid #dee2e6;
+    color: #333;
+}
+[data-bs-theme="dark"] .alert-secondary { 
+    background-color: #2b3035; 
+    border: 1px solid #495057;
+    color: #e9ecef;
+}
+
+/* Passage/Reading Comprehension Card */
+.passage-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    color: #333;
+}
+[data-bs-theme="dark"] .passage-card {
+    background-color: #2b3035;
+    border: 1px solid #495057;
+    color: #e9ecef;
+}
 
 /* Worksheet Cards - 20 Colorful Gradients */
 .ws-color-1  { background: linear-gradient(135deg, #0d6efd, #0a58ca); }

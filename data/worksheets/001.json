@@ -3,132 +3,101 @@
     "title": "Subject Pronouns and Verb 'To Be'",
     "level": "a1-a2",
     "topic": 1,
-    "sections": [
-        "A"
-    ],
+    "sections": ["A", "B", "C", "D", "E", "F", "G"],
     "section_instructions": {
-        "A": "Fill in the blanks using HE, SHE, IT, WE, THEY:"
+        "A": "Fill in the blanks using HE, SHE, IT, WE, THEY:",
+        "B": "Fill in the blanks using AM, IS, ARE, AM NOT, ISN'T, AREN'T:",
+        "C": "Fill in the blanks using AM, IS, ARE, AM NOT, ISN'T, AREN'T:",
+        "D": "Rewrite the sentences using IS, ISN'T, AM, AM NOT:",
+        "E": "Complete this postcard using AM, IS, ARE, AM NOT, ISN'T, AREN'T:",
+        "F": "Choose the best answer:",
+        "G": "Read the passage and answer TRUE or FALSE:"
+    },
+"section_passages": {
+        "G": "Sophia: I am Sophia Berger. Are you Jordan Turner?\nJordan: Yes, I am. Are you English?\nSophia: Hector is. I am French. Are you from the United States?\nJordan: Yes, I am. Hector, are you from London?\nHector: Yes, I am. Are you from California?\nJordan: No, I am from New York City. Is London a big city?\nHector: Yes, it is a big city. Sophia, are you from Lyon?\nSophia: Yes, I am from Lyon.\nHector: Is Lyon near Florence?\nSophia: No, it isn't. Florence is in Italy.\nHector: Oh, isn't it in France? I am a real fool.\nJordan: No, Hector. Of course you are not a fool! Are you and Sophia students?\nHector: I am a student. She is an actress in France. We are tourists in the United States.\nSophia: Are you a student, Jordan?\nJordan: No, I am not a student. I'm a lawyer. I am on a holiday."
     },
     "questions": [
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "cat and horse",
-            "answer": "they"
-        },
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "Mary",
-            "answer": "she"
-        },
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "Tom",
-            "answer": "he"
-        },
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "Jack and I",
-            "answer": "we"
-        },
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "books",
-            "answer": "they"
-        },
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "sister",
-            "answer": "she"
-        },
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "You and Dave",
-            "answer": "you"
-        },
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "plane",
-            "answer": "it"
-        },
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "sunshine",
-            "answer": "it"
-        },
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "cheese",
-            "answer": "it"
-        },
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "cactus",
-            "answer": "it"
-        },
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "parents",
-            "answer": "they"
-        },
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "Pamela",
-            "answer": "she"
-        },
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "news",
-            "answer": "it"
-        },
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "scissors",
-            "answer": "they"
-        },
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "geese",
-            "answer": "they"
-        },
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "flowers",
-            "answer": "they"
-        },
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "piano",
-            "answer": "it"
-        },
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "school",
-            "answer": "it"
-        },
-        {
-            "section": "A",
-            "type": "fill",
-            "text": "daughter",
-            "answer": "she"
-        }
+        {"section": "A", "type": "fill", "text": "cat and horse", "answer": "they"},
+        {"section": "A", "type": "fill", "text": "Mary", "answer": "she"},
+        {"section": "A", "type": "fill", "text": "Tom", "answer": "he"},
+        {"section": "A", "type": "fill", "text": "Jack and I", "answer": "we"},
+        {"section": "A", "type": "fill", "text": "books", "answer": "they"},
+        {"section": "A", "type": "fill", "text": "sister", "answer": "she"},
+        {"section": "A", "type": "fill", "text": "You and Dave", "answer": "you"},
+        {"section": "A", "type": "fill", "text": "plane", "answer": "it"},
+        {"section": "A", "type": "fill", "text": "sunshine", "answer": "it"},
+        {"section": "A", "type": "fill", "text": "cheese", "answer": "it"},
+        {"section": "A", "type": "fill", "text": "cactus", "answer": "it"},
+        {"section": "A", "type": "fill", "text": "parents", "answer": "they"},
+        {"section": "A", "type": "fill", "text": "Pamela", "answer": "she"},
+        {"section": "A", "type": "fill", "text": "news", "answer": "it"},
+        {"section": "A", "type": "fill", "text": "scissors", "answer": "they"},
+        {"section": "A", "type": "fill", "text": "geese", "answer": "they"},
+        {"section": "A", "type": "fill", "text": "flowers", "answer": "they"},
+        {"section": "A", "type": "fill", "text": "piano", "answer": "it"},
+        {"section": "A", "type": "fill", "text": "school", "answer": "it"},
+        {"section": "A", "type": "fill", "text": "daughter", "answer": "she"},
+        
+        {"section": "B", "type": "fill", "text": "It ___ an onion. (+)", "answer": ["is"]},
+        {"section": "B", "type": "fill", "text": "Jasmine ___ a student. (-)", "answer": ["isn't"]},
+        {"section": "B", "type": "fill", "text": "We ___ friends. (+)", "answer": ["are"]},
+        {"section": "B", "type": "fill", "text": "I ___ hungry. (-)", "answer": ["am not"]},
+        {"section": "B", "type": "fill", "text": "Mark ___ 20 years old. (+)", "answer": ["is"]},
+        {"section": "B", "type": "fill", "text": "A bee ___ a big insect. (-)", "answer": ["isn't"]},
+        {"section": "B", "type": "fill", "text": "Newsweek ___ a magazine. (+)", "answer": ["is"]},
+        {"section": "B", "type": "fill", "text": "I ___ a professional football player. (-)", "answer": ["am not"]},
+        {"section": "B", "type": "fill", "text": "I know you. You ___ in my class. (+)", "answer": ["are"]},
+        {"section": "B", "type": "fill", "text": "Cows ___ insects. They ___ mammals. (- / +)", "answer": ["are not", "are"]},
+        {"section": "B", "type": "fill", "text": "Izmir ___ a city. (+)", "answer": ["is"]},
+        {"section": "B", "type": "fill", "text": "He ___ a postman. (+)", "answer": ["is"]},
+        {"section": "B", "type": "fill", "text": "It ___ nine o'clock. (+)", "answer": ["is"]},
+        {"section": "B", "type": "fill", "text": "Manhattan ___ an island. (-)", "answer": ["isn't"]},
+        {"section": "B", "type": "fill", "text": "Mr. Richards ___ a lawyer. (+)", "answer": ["is"]},
+        {"section": "B", "type": "fill", "text": "I ___ ill. I ___ happy. (+ / -)", "answer": ["am", "am not"]},
+        {"section": "B", "type": "fill", "text": "London ___ a big city. (+)", "answer": ["is"]},
+        {"section": "B", "type": "fill", "text": "Dave and Adrian ___ sisters. They ___ brothers. (- / +)", "answer": ["are not", "are"]},
+        {"section": "B", "type": "fill", "text": "New York ___ near to New Jersey. (+)", "answer": ["is"]},
+        {"section": "B", "type": "fill", "text": "Susan and I ___ teachers. We ___ students. (- / +)", "answer": ["are not", "are"]},
+        
+        {"section": "C", "type": "fill", "text": "Germany, England, and Spain ___ cities.", "answer": ["are"]},
+        {"section": "C", "type": "fill", "text": "A lemon ___ sweet. It ___ sour.", "answer": ["isn't", "is"]},
+        {"section": "C", "type": "fill", "text": "Copper ___ cheap. Diamonds ___ expensive.", "answer": ["is", "are"]},
+        {"section": "C", "type": "fill", "text": "Airplanes ___ slow. They ___ fast.", "answer": ["are", "are not"]},
+        {"section": "C", "type": "fill", "text": "Ice cream and candy ___ sweet.", "answer": ["are"]},
+        {"section": "C", "type": "fill", "text": "Today ___ cloudy. It ___ bright.", "answer": ["is", "is not"]},
+        {"section": "C", "type": "fill", "text": "My brother ___ married. He ___ single.", "answer": ["is", "is not"]},
+        {"section": "C", "type": "fill", "text": "I ___ from Turkey. I ___ from Canada.", "answer": ["am", "am not"]},
+        {"section": "C", "type": "fill", "text": "Maths ___ hard. It ___ easy.", "answer": ["is", "is not"]},
+        {"section": "C", "type": "fill", "text": "Mariah ___ a beautiful girl. She ___ ugly.", "answer": ["is", "is not"]},
+        
+        {"section": "D", "type": "fill", "text": "London aren't a country. → ___", "answer": ["isn't"]},
+        {"section": "D", "type": "fill", "text": "The United States aren't a city. → ___", "answer": ["isn't"]},
+        {"section": "D", "type": "fill", "text": "An elephant am not a small animal. → ___", "answer": ["isn't"]},
+        {"section": "D", "type": "fill", "text": "English and Turkish isn't sister languages. → ___", "answer": ["aren't"]},
+        {"section": "D", "type": "fill", "text": "Mercedes aren't a bike. → ___", "answer": ["isn't"]},
+        {"section": "D", "type": "fill", "text": "Is I a student? → ___", "answer": ["Am"]},
+        {"section": "D", "type": "fill", "text": "Mrs. Stuart aren't a poor woman. → ___", "answer": ["isn't"]},
+        {"section": "D", "type": "fill", "text": "Cigarettes isn't good for people. → ___", "answer": ["aren't"]},
+        {"section": "D", "type": "fill", "text": "The North Pole am not hot. → ___", "answer": ["isn't"]},
+        {"section": "D", "type": "fill", "text": "Simon are from United Kingdom. → ___", "answer": ["is"]},
+        
+        {"section": "E", "type": "text", "text": "Hi! My name ___ Jack and this ___ Sue. She ___ my sister. Sue ___ twelve years old and I ___ sixteen. We ___ adults and we ___ students. We ___ Canadians but we ___ Americans. We ___ from Chicago. Chicago ___ in the United States.", "answer": ["is", "is", "is", "is", "am", "are", "are", "are not", "are", "is", "is"]},
+
+        {"section": "F", "type": "choice", "text": "Maggie and Carol …………… good friends.", "options": ["am", "are", "is", "isn't"], "answer": "b"},
+        {"section": "F", "type": "choice", "text": "Sue ………. a science teacher.", "options": ["are not", "is", "are", "am"], "answer": "b"},
+        {"section": "F", "type": "choice", "text": "Mark Steven ………….. a student at Kennedy High School. It …….. an old school.", "options": ["am / is", "are / is", "is / am", "is / is"], "answer": "d"},
+        {"section": "F", "type": "choice", "text": "Margarita ……….. from Spain. I ………….. from Turkey.", "options": ["is / am", "are / is", "am / is", "is / are"], "answer": "a"},
+        {"section": "F", "type": "choice", "text": "You and I ……………… at the same age.", "options": ["am", "isn't", "are", "is"], "answer": "c"},
+
+        {"section": "G", "type": "choice", "display": "radio", "text": "Hector is English.", "options": ["true", "false"], "answer": "false"},
+        {"section": "G", "type": "choice", "display": "radio", "text": "Hector isn't from Manchester.", "options": ["true", "false"], "answer": "true"},
+        {"section": "G", "type": "choice", "display": "radio", "text": "London is not a big city.", "options": ["true", "false"], "answer": "false"},
+        {"section": "G", "type": "choice", "display": "radio", "text": "Hector is a student.", "options": ["true", "false"], "answer": "true"},
+        {"section": "G", "type": "choice", "display": "radio", "text": "Sophia is from the United States.", "options": ["true", "false"], "answer": "false"},
+        {"section": "G", "type": "choice", "display": "radio", "text": "Jordan is from New York City.", "options": ["true", "false"], "answer": "true"},
+        {"section": "G", "type": "choice", "display": "radio", "text": "Florence is in Italy.", "options": ["true", "false"], "answer": "true"},
+        {"section": "G", "type": "choice", "display": "radio", "text": "Jordan is a teacher.", "options": ["true", "false"], "answer": "false"},
+        {"section": "G", "type": "choice", "display": "radio", "text": "Sophia is an actress in London.", "options": ["true", "false"], "answer": "false"},
+        {"section": "G", "type": "choice", "display": "radio", "text": "Sophia and Hector are tourists.", "options": ["true", "false"], "answer": "true"}
     ]
 }
